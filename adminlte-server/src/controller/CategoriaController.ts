@@ -16,8 +16,6 @@ export class CategoriaController {
                 }
             
         });
-
-
     }
 
     //Agregar Categoria

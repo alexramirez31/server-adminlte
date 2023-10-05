@@ -39,6 +39,7 @@ createConnection().then(async connection => {
   //Rutas
 
   app.use('/', routes);
+  app.use('/uploads', express.static('uploads'));
 
   // start express server
 

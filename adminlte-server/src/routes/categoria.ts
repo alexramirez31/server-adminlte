@@ -1,8 +1,6 @@
 
 import { Router } from "express";
-
 const router = Router();
-
 
 import { CategoriaController } from "../controller/CategoriaController";
 

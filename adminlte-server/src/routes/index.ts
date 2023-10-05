@@ -4,6 +4,7 @@ import usuario from "./usuario";
 import extencion from "./extension";
 import categoria from "./categoria";
 import producto from "./producto";
+import dashboard from "./dashboard";
 const routes = Router();
 
 
@@ -20,6 +21,8 @@ routes.use('/extensiones', extencion);
 routes.use('/categorias', categoria);
 
 routes.use('/productos',producto);
+
+routes.use('/dashboard',dashboard);
 
 
 export default routes;

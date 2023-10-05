@@ -22,8 +22,6 @@ export class ExtensionesController {
 
 }
 
-
-
 static obtenerExtensionesId = async (req: Request, res: Response) => {
     var id = req.params.id 
     connectionmysql.query("call  sp_extension_obtener_id(?)",[id],
